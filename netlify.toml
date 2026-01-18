@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+
+[context.production.environment]
+  API_KEY = "AIzaSyD4CWfFlLOIsoFcbMVx2PXHGwZKAir9VYM"
+
+[context.deploy-preview.environment]
+  API_KEY = "AIzaSyD4CWfFlLOIsoFcbMVx2PXHGwZKAir9VYM"
+
+[context.branch-deploy.environment]
+  API_KEY = "AIzaSyD4CWfFlLOIsoFcbMVx2PXHGwZKAir9VYM"
